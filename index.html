@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VolleyWheel — Support</title>
+<meta name="description" content="Support and help for VolleyWheel, a rotation board for volleyball coaches.">
+<style>
+  :root{
+    --green:#1B5E20; --green-2:#2E7D32; --ink:#1a1a1a; --muted:#5f6b60;
+    --bg:#ffffff; --card:#f4f7f4; --line:#e2e8e2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#e8eae8; --muted:#9fb0a2; --bg:#0f130f; --card:#161c16; --line:#28312a; --green:#5cbb64; --green-2:#7fce85; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:680px; margin:0 auto; padding:40px 22px 80px}
+  header{display:flex; align-items:center; gap:14px; margin-bottom:36px}
+  .mark{
+    width:44px; height:44px; border-radius:11px; flex:none;
+    background:linear-gradient(160deg,var(--green-2),var(--green));
+    display:grid; place-items:center;
+  }
+  .mark svg{width:26px; height:26px}
+  .brand{font-weight:800; font-size:20px; letter-spacing:.2px}
+  .brand span{color:var(--green-2)}
+  h1{font-size:26px; margin:0 0 6px; letter-spacing:-.01em}
+  h2{font-size:18px; margin:34px 0 10px}
+  p{margin:0 0 14px; color:var(--ink)}
+  .lede{color:var(--muted); font-size:17px}
+  a{color:var(--green-2); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:20px 22px; margin:18px 0;
+  }
+  .btn{
+    display:inline-block; background:var(--green); color:#fff; font-weight:700;
+    padding:12px 20px; border-radius:10px; margin-top:4px;
+  }
+  .btn:hover{text-decoration:none; background:var(--green-2)}
+  ul{margin:0 0 14px; padding-left:20px} li{margin:6px 0}
+  .faq dt{font-weight:700; margin-top:16px}
+  .faq dd{margin:4px 0 0; color:var(--muted)}
+  footer{margin-top:48px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9"/>
+      </svg>
+    </div>
+    <div class="brand">VOLLEY<span>WHEEL</span></div>
+  </header>
+
+  <h1>Support</h1>
+  <p class="lede">VolleyWheel is a rotation board for volleyball coaches — set your six on a wheel, spin it to follow the serve order, and keep a lineup for every set. Everything stays on your device.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Need help or have feedback?</h2>
+    <p>Email us and we'll get back to you.</p>
+    <a class="btn" href="mailto:volleywheel@gmail.com">volleywheel@gmail.com</a>
+  </div>
+
+  <h2>Common questions</h2>
+  <dl class="faq">
+    <dt>Where is my data stored?</dt>
+    <dd>Only on your iPhone. VolleyWheel has no account and no server — your teams, rosters, and lineups never leave your device. They're included in your normal iCloud or Finder device backup if you have backups on.</dd>
+
+    <dt>I got a new phone / reinstalled the app and my teams are gone.</dt>
+    <dd>Data lives in the app's local storage, so it's removed if the app is deleted. Restoring your phone from a device backup that included VolleyWheel brings it back; otherwise it can't be recovered.</dd>
+
+    <dt>What does the paid unlock include?</dt>
+    <dd>The free version covers one team with up to three saved lineups. A single &ldquo;Unlock Unlimited&rdquo; purchase (one time, no subscription) removes both limits. Use <b>Restore Purchases</b> in the ••• menu after reinstalling or on a new device.</dd>
+
+    <dt>How do I rotate / follow the serve order?</dt>
+    <dd>Spin the wheel with your finger, or tap <b>Rotate Left</b> / <b>Rotate Right</b>. The number in the center of the wheel is the current rotation (1–6). Turn on <b>Zone Numbers</b> in the ••• menu to show positions 1–6 on the court.</dd>
+
+    <dt>How do I keep a different lineup for each set?</dt>
+    <dd>Your wheel is always saved to the active lineup automatically. Tap <b>+</b> in the lineup bar for a fresh one, and tap a lineup's name to switch, rename, duplicate, or delete it.</dd>
+  </dl>
+
+  <h2>Privacy</h2>
+  <p>VolleyWheel collects nothing. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>
+    VolleyWheel is an independent app for iPhone. Not affiliated with USA Volleyball, the FIVB, or any governing body.
+  </footer>
+</div>
+</body>
+</html>
